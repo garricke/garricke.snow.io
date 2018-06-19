@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" lang="zh-CN">
+	<title>DEMO-雪花飞舞</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script src="https://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
+</head>
+<body>
+	<div class="main-page">
+		<!-- <div class="show-page-center"> -->
+		<canvas id="snowCanvas" class="snow-canvas">
+			如果您看到这句话，说明您的浏览器已经过时，不能显示炫酷的特效，但是可以拿到古董市场碰碰运气
+		</canvas>
+		<!-- </div> -->
+	</div>
+</body>
+<script src="js/snow.js"></script>
+</html>
