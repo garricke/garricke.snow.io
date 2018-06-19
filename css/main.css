@@ -1,0 +1,66 @@
+/*
+ * DEMO页面的CSS样式表
+ */
+/*主要页面布局fork*/
+html, body{
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	border:none;
+	margin:0;
+	padding:0;
+}
+body{
+	background:url(../img/snow_background.png);
+	background-size:cover;
+}
+.main-page {
+	position:absolute;
+	height:100%;
+	width:100%;
+}
+.show-page-center {
+	margin: 0;
+	border: none;
+	padding: 0;
+	position: absolute;
+	left: 50%;
+	top: 0;
+	width: 0;
+	height: 100%;
+}
+.show-page {
+	position:absolute;
+	width:1054px;
+	height:640px;
+	top:80px;
+	left:-527px;
+}
+.demo-wrap{
+	position:absolute;
+	width:70%;
+	height:100%;
+	left:0;
+	top:0;
+	/*background-color:white;*/
+}
+.dashboard-wrap{
+	position:absolute;
+	width:30%;
+	height:100%;
+	top:0;
+	right:0;
+	background-color:gray;
+}
+/*主要页面布局join*/
+
+/*canvas画布样式fork*/
+.snow-canvas{
+	height:100%;
+	width:98%;
+	top:0;
+	left:0;
+}
+/*canvas画布样式join*/
